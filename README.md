@@ -8,6 +8,31 @@ Gen Resume helps turn a candidate's own documents into a one-page English resume
 
 ## How the current local workflow works
 
+```mermaid
+flowchart LR
+    A[Candidate files] --> B[Local extraction and evidence]
+    J[Optional job description] --> C[Keyword comparison]
+    B --> D[Local AI draft]
+    C --> D
+    D --> E[Claim and number checks]
+    E --> F[One-page A4 PDF preview]
+    F --> G[Candidate review]
+```
+
+### Current local stack (product-level view)
+
+```mermaid
+flowchart TB
+    Browser[Local browser interface] --> Service[Python / FastAPI workflow]
+    Service --> Files[Candidate-provided files on device]
+    Service --> Ollama[Locally installed Ollama model]
+    Service --> Checks[Evidence and layout checks]
+    Checks --> PDF[A4 PDF draft]
+    PDF --> Browser
+```
+
+This diagram describes the **private local application**, not code in this public documentation repository. There is no hosted generator, customer database or payment integration.
+
 ```text
 Candidate documents + optional job description
                   ↓
