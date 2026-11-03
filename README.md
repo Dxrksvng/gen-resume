@@ -1,4 +1,16 @@
+<div align="center">
+
 # Gen Resume
+
+**A grounded, local-first resume drafting experience.**
+
+![Status private local app](https://img.shields.io/badge/Status-private_local_app-F59E0B?style=for-the-badge) ![Runs on your device](https://img.shields.io/badge/Runs-on_your_device-2ea44f?style=for-the-badge) ![Output A4 PDF](https://img.shields.io/badge/Output-A4_PDF-EF4444?style=for-the-badge)
+
+</div>
+
+> Public product overview. The implementation is maintained separately in a private repository.
+
+---
 
 ### A grounded, local-first resume drafting experience
 
