@@ -10,12 +10,6 @@
 
 > Public product overview. The implementation is maintained separately in a private repository.
 
-## Tech stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,fastapi,html&perline=10" alt="Tech stack" />
-</p>
-
 ---
 
 ### A grounded, local-first resume drafting experience
